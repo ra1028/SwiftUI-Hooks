@@ -41,6 +41,7 @@
 		804D22F521AE04324D8D53A6 /* HookComputation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39542BE05110A3F8556E59DC /* HookComputation.swift */; };
 		8129EE1B459442C7E52CC175 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C88EFB4FA71A8A1B418F9 /* Assertions.swift */; };
 		8586DF0A10ED514A6713644D /* HookCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB842CCBBC5FCDC50B8A1B67 /* HookCoordinator.swift */; };
+		8C038485EE6E79D693F8DD42 /* UseAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0135DC559D3E7BDD1EE81B33 /* UseAsync.swift */; };
 		8E4F0E21ACCD971F96BE9354 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E441259620683DA55E3C5FC /* LinkedListTests.swift */; };
 		8F8C80AEBEAEE0AB6DE68ACA /* UsePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3AC7B5A6545FA50743EB3 /* UsePublisher.swift */; };
 		96C6BD504F07B49653C89E5F /* UseContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FB5498BCA211AA8D95310 /* UseContext.swift */; };
@@ -157,6 +158,7 @@
 /* Begin PBXFileReference section */
 		0020121CF653D18FB163AE50 /* UseEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseEffect.swift; sourceTree = "<group>"; };
 		0053F6FA1A1D35376F054B6C /* UseNetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseNetworkImage.swift; sourceTree = "<group>"; };
+		0135DC559D3E7BDD1EE81B33 /* UseAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseAsync.swift; sourceTree = "<group>"; };
 		0394EFB241002229766271A3 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		0652C4BBEE8DAF796C34B24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0842660A72E53D73F87390DF /* MemoHookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoHookTests.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 		8B3DFFB4FA97748CDD0319C0 /* Hook */ = {
 			isa = PBXGroup;
 			children = (
+				0135DC559D3E7BDD1EE81B33 /* UseAsync.swift */,
 				1E6FB5498BCA211AA8D95310 /* UseContext.swift */,
 				0020121CF653D18FB163AE50 /* UseEffect.swift */,
 				69F611A657F17B2D69B02BB4 /* UseEnvironment.swift */,
@@ -635,6 +638,7 @@
 				E3DFECE7242B05F649E64B0C /* Provider.swift in Sources */,
 				C3E767D0B359B6B2FCE86369 /* RefObject.swift in Sources */,
 				AF6D0430FCF0744C88C79C4F /* TemporaryHookScope.swift in Sources */,
+				8C038485EE6E79D693F8DD42 /* UseAsync.swift in Sources */,
 				96C6BD504F07B49653C89E5F /* UseContext.swift in Sources */,
 				55A6953CB64F43219EF93958 /* UseEffect.swift in Sources */,
 				FAAC96B396867EF9CBD41738 /* UseEnvironment.swift in Sources */,
